@@ -1,0 +1,198 @@
+
+body {
+    margin: auto;
+    width: 828px;
+    height: 1169px;
+    text-align: left;
+    background-image: url(../Pictures/Backgrounds&Textures/WhiskeyRoom1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    align-items: center;        
+}
+
+
+/*-----Header-----*/
+
+
+
+header {
+    border-width: 10px;
+    border-image: url(../Pictures/Backgrounds&Textures/woodtexture.jpg) 10 10 10 10 round round;
+    border-style: solid;
+    width: inherit;
+    height: 250px;
+    margin-top: 10px;
+}
+
+/*--Banner Img--*/
+
+#banner {
+    width: 828px;
+    height: 200px;
+    display: block;
+}
+
+/*-----Navigation-----*/
+
+
+/*--Main Nav--*/
+
+#mainNav {
+    width: inherit;
+}
+
+/*--Dropdown Menu--*/
+.dropbtn {
+    background-color: rgb(45,65,89);
+    width: inherit;
+    border: none;
+    cursor: pointer;
+    height: 50px; 
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.dropbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(91,130,163);
+}
+
+.dropdown {
+    position: relative;
+    float: left;
+    width: 276px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(91,130,163);
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(45,65,89)}
+
+.show {display:block;}
+
+#drinks {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #435974;
+}
+
+/*--Non-Dropdown Menu--*/
+.nondropbtn {
+    background-color: rgb(45,65,89);
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+.nondropbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nondropbtn:hover, .nondropbtn:focus {
+    background-color: rgb(91,130,163);
+}
+
+.nondrop {
+    position: relative;
+    float: left;
+    width: 276px;
+}
+
+#trips {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #435974;
+}
+
+/*--Section Nav--*/
+
+.sectionnav li {
+    list-style: none;
+}
+
+.sectionnav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+ 
+}
+
+/*-----Main Part-----*/
+
+main {
+    border-style: solid;
+    border-width: 10px;
+    border-image: url(../Pictures/Backgrounds&Textures/woodtexture.jpg) 10 10 10 10 round round;
+    background-color: white;   
+    height: 1169px;
+    margin-top: 10px;
+    width: inherit;
+    margin-bottom: 10px;
+    background-color: rgb(45,65,89);
+}
+
+main > h1 {
+ font-family: Time New Roman;
+ font-size: 25px;
+ margin-left: 10px;
+ color: red;
+}
+
+main > p {
+ margin-left: 10px;
+ font-size: 25px;
+ color: red;
+ 
+}
+
+/*----- IMAGES/SLIDESHOWS-----*/
+
+.slideshow {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+#mugshots {
+    width: 150px;
+    height: 150px;
+    border-image: url(../Pictures/Backgrounds&Textures/woodtexture.jpg) 10 10 10 10 round round;
+    border-width: 10px;
+    align-self: center;
+}
+
+.slideshow h1 {
+    font-family: serif;
+     border-image: url(../Pictures/Backgrounds&Textures/woodtexture.jpg) 10 10 10 10 round round;
+     border-width: 10px;
+     background-color: rgb(45,65,89);
+     margin-right: 30px;
+     text-align: center;
+     color: white;
+}

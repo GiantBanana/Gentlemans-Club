@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="utf-8">
+  <meta name="The Gentlemen's Club Website">
+  <link rel="stylesheet" href="CSS/gentlemen.css">
+</head>
+    <body>
+<header role="banner">   
+<a href="about.html"> <img src="Pictures/Banners&Logos/The%20Gentlemans%20Club%20Banner%202.jpg" alt="Club Logo" id="banner"></a>
+<nav role="navigation" id="mainNav">
+    <div class="dropdown">
+        <a href="drinks.html"><button onmouseover="dropdownFunction1()" onmouseout="dropdownFunction3()" class="dropbtn" id="drinks">Drinks</button></a>
+        <div id="myDrinks" class="dropdown-content" onmouseover="dropdownFunction1()" onmouseout="dropdownFunction3()">
+            <a href="%C3%B8l.html">Øl</a>
+            <a href="vin.html">Vin</a>
+            <a href="sprit.html">Sprit</a>
+        </div>
+        </div>
+        <div class="nondrop">
+        <a href="trips.html"><button class="nondropbtn" id="trips">Trips</button></a>
+        </div>
+        <div class="nondrop" >
+        <a href="about.html"><button class="nondropbtn" id="about">About</button></a>    
+        </div>
+</nav>
+</header>
+
+<main role="main">   
+     <h1>Drinks Review</h1>
+     <p> This is the section were we review whiskey, beer, wine and other asorted spirits.</p>
+    
+     <nav role="navigation" class="sectionnav">
+       <ul>
+       <li><a href="%C3%B8l.html">Øl</a></li>
+       <li><a href="vin.html">Vin</a></li>
+       <li><a href="sprit.html">Sprit</a></li> 
+       </ul>
+         
+     </nav>
+</main>
+      <script src="JavaScript/gentleman.js"></script>  
+    </body>
+</html>
